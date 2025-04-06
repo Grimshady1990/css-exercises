@@ -1,4 +1,8 @@
 .button-one {
-    background-color: black;
-    color: white;
+    background-color: rgb(16, 16, 16);
+    color: #ffeaea;
+}
+
+.button-two {
+    background-color: rgb(221, 221, 43);
 }
