@@ -27,9 +27,18 @@ input {
 
 ul {
   list-style-type: none;
+  display: flex;
 }
 
 a {
   text-decoration: none;
   color: rgb(125, 121, 121);
+}
+
+.footer {
+  display: flex;
+}
+
+.header {
+  display: flex;
 }
