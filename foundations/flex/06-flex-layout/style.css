@@ -30,6 +30,8 @@ input {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 15px;
   
 }
 
@@ -41,11 +43,14 @@ a {
 .footer {
   display: flex;
   margin-top: auto;
+  justify-content: space-between;
+  padding:0 20px 0 20px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 0 20px 0 20px;
 }
 
 .left-links {
