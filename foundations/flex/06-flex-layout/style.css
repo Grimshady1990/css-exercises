@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 img {
@@ -27,7 +30,7 @@ input {
 
 ul {
   list-style-type: none;
-  display: flex;
+  
 }
 
 a {
@@ -37,8 +40,14 @@ a {
 
 .footer {
   display: flex;
+  margin-top: auto;
 }
 
 .header {
   display: flex;
+  justify-content: space-between;
+}
+
+.left-links {
+  padding: 0;
 }
