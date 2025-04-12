@@ -12,6 +12,8 @@ body {
 
 img {
   width: 600px;
+
+  
 }
 
 button {
@@ -19,6 +21,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -56,4 +59,13 @@ a {
 
 .left-links {
   padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  gap: 10px;
+
 }
