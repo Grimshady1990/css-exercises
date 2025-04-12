@@ -30,6 +30,7 @@ img {
 
 .content {
   display: flex;
+  width: 200px;
 }
 
 .column {
