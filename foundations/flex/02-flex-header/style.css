@@ -3,7 +3,7 @@
   background: papayawhip;
   display: flex;
   flex: 1;
-  
+
 }
 
 .logo {
@@ -17,6 +17,8 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  flex: 1;
 }
 
 a {
