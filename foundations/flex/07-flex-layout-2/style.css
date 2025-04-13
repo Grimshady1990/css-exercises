@@ -28,9 +28,11 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  display: flex;
-  justify-content: stretch;
-  flex: 1;
+  
+ 
+  
+  
+  
   
 }
 
@@ -38,9 +40,6 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  
-
- 
 }
 
 ul {
@@ -54,23 +53,26 @@ a {
 
 .cards {
   display: flex;
-  justify-items: auto;
-  height: 200px;
-  width: 1000px;
   flex-wrap: wrap;
-  
-  
+  width: 800px;
 
 }
 
 .cards1,
 .cards2 {
   display: flex;
-  flex-direction: row;
+  
+
+  
+  
+  
+  
 }
 
 .sidebar-cards {
   display: flex;
   flex: 1;
+  
+  
 }
 
