@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .container {
@@ -58,11 +59,22 @@
 
 .nav {
   background-color: #C50208;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+
+
+  
 }
 
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
+  
+  
+  
+  
+  
 }
 
 .article {
@@ -104,4 +116,10 @@
 
 .logo {
   justify-self: start;
+}
+.nav>ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 1 / -1;
+  
 }
